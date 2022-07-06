@@ -4,7 +4,7 @@ body{
 }
 
 section{
-    height: 500px;
+    height: 350px;
     margin: 0%;
     padding-bottom: 150px;
     
@@ -12,7 +12,7 @@ section{
 
 #top-banner{
     text-align: center;
-    background-image: url("images/donation13.jpg");
+    background-image: url("../images/donation13.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -25,12 +25,12 @@ section{
 }
 
 .main{
+    padding-top: 5px;
+    padding-bottom: 10px;
     font-size:medium;
 }
 
-.donate{
-    padding-bottom: 30px;
-}
+
 
 .anchor-button{
     text-decoration: none;
@@ -118,3 +118,103 @@ span{
     margin: 2%;
 }
 
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.cloud {
+    height: 40px;
+    padding: 100px 0;
+}
+
+.cloud .cloud-list {
+    width: 50%;
+    float: left;
+}
+
+.cloud .cloud-list h1 {
+    padding-bottom: 20px;
+    padding-top: 30px;
+}
+
+.cloud .cloud-list p {
+    padding-bottom: 15px;
+    line-height: 28px;
+}
+
+.cloud .cloud-list ul li {
+    width: calc(50% - 15px);
+    background-color: #0984e3;
+    float: left;
+    margin-bottom: 15px;
+    margin-right: 15px;
+    padding: 10px 0;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 0 0 6px #4e4c4c;
+    text-align: center;
+    list-style-type: none;
+}
+
+.cloud-bg .cloud .cloud-list ul li a {
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.cloud .cloud-image {
+    margin-top: 40px;
+    width: 50%;
+    float: left;
+    padding-left: 30px;
+    box-sizing: border-box;
+}
+
+.cloud .cloud-image img {
+    width: 100%;
+}
+
+.updates{
+    text-align: center;
+}
+
+.link{
+    background-color: #FFF4D6;
+    padding: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 40px;
+    
+}
+
+input{
+    padding-right: 150px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #D9D9D9;
+}
+
+button{
+    margin-left: -5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    background-color: #0984e3;
+}
+
+footer{
+    background-color: #0B0D17;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+footer h3{
+    color: #FF5959;
+    font-style: italic;
+}
+
+footer p{
+    color: #D9DBE1;
+}
